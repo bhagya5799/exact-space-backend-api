@@ -1,0 +1,45 @@
+###
+post http://localhost:3007/getall
+Content-Type: application/json
+
+{
+    "name": "pachu",
+    "password":"pachu1245",
+    "emailId":"pachu@gmail.com"
+}
+
+
+###
+get http://localhost:3007/
+
+
+###
+get http://localhost:3007/getOneData/63bed2b41574b4d0a4fef870
+
+###
+
+PUT  http://localhost:3007/updateVal/63bed936555ffb35b8a0263e
+Content-Type: application/json
+
+
+{
+     "name": "bhagyashree",
+      "password": "bhagya5799",
+    "emailId": "lbhagya818gmail.com"
+   
+}
+
+
+###
+DELETE http://localhost:3007/deleteVal/63bede120ed916a1f91962da
+
+
+###
+post http://localhost:3007/login
+Content-Type: application/json
+
+
+{
+     "password":"bhagya20237",
+    "emailId":"lbhagya818@gmail.com"
+}
